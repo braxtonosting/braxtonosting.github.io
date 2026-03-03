@@ -1,2 +1,5 @@
-# braxtonosting.github.io
-Braxton Osting
+# braxtonosting.org
+
+Personal academic website for Braxton Osting.
+
+Hosted via GitHub Pages.
