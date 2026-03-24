@@ -61,6 +61,20 @@ a:hover {
 	margin: 0;
 }
 
+
+.publications {
+	counter-reset: pub;
+}
+
+.publications li {
+	counter-increment: pub;
+}
+
+.publications li::marker {
+	content: counter(pub) ". ";
+}
+
+
 /* Header */
 
 #header {
