@@ -49,21 +49,21 @@ a:hover {
 	margin: 0 auto;
 	padding: 20px 50px 10px 50px;
 	background: none;
-	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
 /* Logo */
 
 #logo {
-	float: left;
-	width: 360px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
 }
 
 #logo h1 {
-	padding: 10px 0 0 0;
+	padding: 0;
 	letter-spacing: -1px;
 	font-size: 2.8em;
 }
@@ -91,33 +91,27 @@ a:hover {
 /* Menu */
 
 #menu {
-	float: right;
-	width: 500px;
 	margin: 0;
-	padding: 42px 0 0 0;
+	padding: 0;
 }
 
 #menu ul {
-	float: right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	display: flex;
+	gap: 22px;
 }
 
 #menu li {
-	float: left;
-	margin-left: 22px;
+	margin: 0;
 }
 
 #menu a {
-	display: block;
-	padding: 0;
 	text-decoration: none;
-	text-align: center;
 	font-size: 13px;
 	font-weight: bold;
 	color: #666666;
-	line-height: 1.2;
 	transition: color 0.15s ease;
 }
 
@@ -132,7 +126,6 @@ a:hover {
 	max-width: 890px;
 	margin: 0 auto;
 	padding: 30px 55px;
-	overflow: hidden;
 }
 
 /* Content */
