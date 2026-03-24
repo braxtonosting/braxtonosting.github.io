@@ -57,11 +57,7 @@ a:hover {
 /* Header */
 
 #header {
-	width: 900px;
-	height: 150px;
-	margin: 0 auto;
-	padding: 0px 50px;
-	background: url(images/img01.jpg) no-repeat left top;
+    background: none;
 }
 
 /* Logo */
@@ -197,10 +193,7 @@ a:hover {
 /* Page */
 
 #page {
-	width: 890px;
-	margin: 0 auto;
-	padding: 30px 55px;
-	background: url(images/img03.jpg) repeat-y left top;
+    background: none;
 }
 
 /* Content */
