@@ -137,7 +137,8 @@ a:hover {
 /* Content */
 
 #content {
-	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
 }
 
 .post {
