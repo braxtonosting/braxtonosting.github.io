@@ -1,3 +1,7 @@
+:root {
+	--content-width: 680px;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -39,29 +43,28 @@ a:hover {
 }
 
 .container {
-	max-width: 900px;
+	max-width: var(--content-width);
 	margin: 0 auto;
 }
 
 /* Header */
 
 #header {
-	max-width: 900px;
+	max-width: var(--content-width);
 	margin: 0 auto;
-	padding: 12px 20px 6px 20px;
+	padding: 12px 0 6px 0;
 	display: flex;
 	align-items: flex-end;
-	gap: 25px;
+	gap: 15px;
 }
 
 /* Logo */
 
 #logo {
-	width: 360px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
-	flex: 0 0 360px;
+	flex: 1;
 }
 
 #logo h1 {
@@ -129,16 +132,16 @@ a:hover {
 /* Page */
 
 #page {
-	max-width: 900px;
+	max-width: var(--content-width);
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 /* Content */
 
 #content {
-	max-width: 680px;
-	margin: 0;
+	max-width: var(--content-width);
+	margin: 0 auto;
 }
 
 .post {
@@ -186,6 +189,7 @@ a:hover {
 /* Footer */
 
 #footer {
+	max-width: var(--content-width);
 	margin: 0 auto;
 	padding: 18px 0;
 }
@@ -202,11 +206,10 @@ a:hover {
 
 #header {
 	display: block;
-	padding: 15px 20px 8px 20px;
+	padding: 15px 0 8px 0;
 }
 
 #logo {
-	width: auto;
 	margin-bottom: 10px;
 }
 
