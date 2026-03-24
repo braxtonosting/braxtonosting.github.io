@@ -138,8 +138,8 @@ a:hover {
 /* Content */
 
 #content {
-	float: left;
-	width: 580px;
+	float: none;
+	width: 100%;
 }
 
 .post {
