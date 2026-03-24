@@ -50,16 +50,18 @@ a:hover {
 	padding: 20px 50px 10px 50px;
 	background: none;
 	display: flex;
-	justify-content: space-between;
 	align-items: flex-end;
+	gap: 30px;
 }
 
 /* Logo */
 
 #logo {
+	width: 360px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
+	flex: 0 0 360px;
 }
 
 #logo h1 {
@@ -92,7 +94,7 @@ a:hover {
 
 #menu {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 3px 0;
 }
 
 #menu ul {
