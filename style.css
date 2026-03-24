@@ -44,7 +44,7 @@ a:hover {
 
 .container {
 	max-width: var(--content-width);
-	margin: 0 auto;
+	margin: 0;
 }
 
 /* Header */
