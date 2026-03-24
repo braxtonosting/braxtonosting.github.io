@@ -55,8 +55,9 @@ a:hover {
 }
 
 .container {
-	width: 1000px;
-	margin: 0px auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Header */
