@@ -46,9 +46,8 @@ a:hover {
 
 #header {
 	width: 900px;
-	height: 150px;
 	margin: 0 auto;
-	padding: 0px 50px;
+	padding: 20px 50px 10px 50px;
 	background: none;
 }
 
