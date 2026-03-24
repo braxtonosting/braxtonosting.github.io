@@ -139,7 +139,7 @@ a:hover {
 #content {
 	float: none;
 	width: 100%;
-	max-width: 650px;
+	max-width: 700px;
 }
 
 .post {
@@ -153,10 +153,6 @@ a:hover {
 	margin-bottom: 6px;
 }
 
-.post .title a {
-	color: #4a4a4a;
-}
-
 .post .entry {
 	padding: 0 0 16px 0;
 	text-align: left;
@@ -164,6 +160,28 @@ a:hover {
 
 .post .entry p {
 	margin-bottom: 0.8em;
+}
+
+/* Home intro (photo + contact) */
+
+.home-intro {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.home-photo {
+	flex: 0 0 180px;
+}
+
+.profile-photo {
+	width: 180px;
+	height: auto;
+	border-radius: 4px;
+}
+
+.home-contact {
+	flex: 1;
 }
 
 /* Sidebar */
@@ -197,4 +215,62 @@ a:hover {
 	text-align: center;
 	font-size: 11px;
 	color: #777777;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+#header {
+	display: block;
+	padding: 15px 20px 8px 20px;
+}
+
+#logo {
+	width: auto;
+	margin-bottom: 10px;
+}
+
+#menu ul {
+	flex-wrap: wrap;
+	gap: 12px 18px;
+}
+
+#page {
+	padding: 15px 20px;
+}
+
+}
+
+@media (max-width: 700px) {
+
+.home-intro {
+	display: block;
+}
+
+.profile-photo {
+	width: 140px;
+	margin-bottom: 15px;
+}
+
+}
+
+@media (max-width: 600px) {
+
+body {
+	font-size: 15px;
+}
+
+#logo h1 {
+	font-size: 2em;
+}
+
+#menu ul {
+	display: block;
+}
+
+#menu li {
+	margin-bottom: 8px;
+}
+
 }
