@@ -106,7 +106,7 @@ a:hover {
 
 #menu li {
 	float: left;
-	margin-left: 18px;
+	margin-left: 22px;
 }
 
 #menu a {
@@ -118,6 +118,7 @@ a:hover {
 	font-weight: bold;
 	color: #666666;
 	line-height: 1.2;
+	transition: color 0.15s ease;
 }
 
 #menu a:hover,
