@@ -38,18 +38,21 @@ a:hover {
 }
 
 .container {
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
 /* Header */
 
 #header {
-	width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
-	padding: 20px 50px 10px 50px;
+	padding: 20px 20px 10px 20px;
 	background: none;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 
 /* Logo */
@@ -129,10 +132,11 @@ a:hover {
 /* Page */
 
 #page {
-	width: 890px;
+	max-width: 1000px;
 	margin: 0 auto;
-	padding: 30px 55px;
+	padding: 30px 20px;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 
 /* Content */
@@ -140,6 +144,7 @@ a:hover {
 #content {
 	float: none;
 	width: 100%;
+	max-width: 650px;
 }
 
 .post {
