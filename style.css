@@ -1,17 +1,17 @@
+
 body {
 	margin: 0;
 	padding: 0;
 	background: #ffffff;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.6;
-	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #4a4a4a;
 }
 
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
-	font-weight: 600;
+	font-weight: normal;
 	color: #5a2a83;
 }
 
@@ -20,16 +20,16 @@ h1 {
 }
 
 h2 {
-	font-size: 2.2em;
+	font-size: 2.4em;
 }
 
 h3 {
-	font-size: 1.35em;
+	font-size: 1.4em;
 }
 
 p, ul, ol {
 	margin-top: 0;
-	line-height: 1.7;
+	line-height: 180%;
 }
 
 a {
@@ -47,20 +47,19 @@ a:hover {
 }
 
 .container {
-	max-width: 1000px;
+	width: 1000px;
 	margin: 0 auto;
-	padding: 0 20px;
-	box-sizing: border-box;
 }
 
 /* Header */
 
 #header {
-	width: auto;
-	min-height: 120px;
+	width: 900px;
+	height: 150px;
 	margin: 0 auto;
-	padding: 30px 0 10px 0;
+	padding: 0px 50px;
 	background: none;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 /* Logo */
@@ -74,17 +73,16 @@ a:hover {
 }
 
 #logo h1 {
-	padding: 10px 0 0 0;
+	padding: 45px 0px 0px 0px;
 	letter-spacing: -1px;
-	font-size: 2.4em;
-	font-weight: 600;
+	font-size: 2.8em;
 }
 
 #logo p {
 	margin: 0;
-	padding: 8px 0 0 0;
+	padding: 4px 0 0 0px;
 	letter-spacing: 0;
-	font: normal 17px Georgia, "Times New Roman", Times, serif;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 	color: #666666;
 }
@@ -112,7 +110,7 @@ a:hover {
 	float: right;
 	width: 280px;
 	height: 60px;
-	padding: 20px 0 0 0;
+	padding: 20px 0px 0px 0px;
 }
 
 #search form {
@@ -130,17 +128,17 @@ a:hover {
 #search-text {
 	width: 170px;
 	padding: 6px 5px 2px 5px;
-	border: 1px solid #d0d0d0;
-	background: #ffffff;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
 	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #333333;
+	color: #5D781D;
 }
 
 #search-submit {
 	width: 50px;
 	height: 22px;
 	border: none;
-	background: #cccccc;
+	background: #B9B9B9;
 	color: #000000;
 }
 
@@ -148,16 +146,16 @@ a:hover {
 
 #menu {
 	float: right;
-	width: auto;
-	height: auto;
-	margin: 0;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
 	padding: 0;
 }
 
 #menu ul {
 	float: right;
 	margin: 0;
-	padding: 55px 0 0 0;
+	padding: 85px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
 }
@@ -168,30 +166,32 @@ a:hover {
 
 #menu a {
 	display: block;
-	margin-right: 0;
-	padding: 10px 14px;
+	margin-right: 1px;
+	padding: 10px 15px 15px 15px;
 	background: none;
 	text-decoration: none;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: 600;
-	color: #555555;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
 	border: none;
 }
 
-#menu a:hover,
-#menu .current_page_item a {
-	color: #111111;
+#menu a:hover, #menu .current_page_item a {
 	text-decoration: none;
+	color: #111111;
+}
+
+#menu .current_page_item a {
 }
 
 /* Page */
 
 #page {
-	width: auto;
+	width: 890px;
 	margin: 0 auto;
-	padding: 30px 0 10px 0;
+	padding: 30px 55px;
 	background: none;
 }
 
@@ -199,31 +199,30 @@ a:hover {
 
 #content {
 	float: left;
-	width: 62%;
-	padding: 0;
+	width: 580px;
+	padding: 0px 0px 0px 0px;
 }
 
 .post {
 	overflow: hidden;
-	margin-bottom: 50px;
-	padding-bottom: 10px;
+	margin-bottom: 40px;
 	border-bottom: 1px solid #eeeeee;
 }
 
 .post .title {
-	height: auto;
-	padding: 0 0 10px 0;
+	height: 41px;
+	padding: 7px 0px 0px 0px;
 	letter-spacing: 0;
 }
 
 .post .title a {
 	border: none;
-	color: #444444;
+	color: #555555;
 }
 
 .post .meta {
-	margin-bottom: 25px;
-	padding: 0;
+	margin-bottom: 30px;
+	padding: 0px;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -239,7 +238,8 @@ a:hover {
 }
 
 .post .entry {
-	padding: 0 0 20px 0;
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
 	text-align: left;
 }
 
@@ -248,27 +248,37 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-.more,
+.more {
+	display: block;
+	float: left;
+	width: 88px;
+	height: 25px;
+	padding: 2px 0px 0px 0px;
+	margin-right: 10px;
+	background: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
 .comments {
 	display: block;
 	float: left;
 	width: 88px;
 	height: 25px;
-	padding: 2px 0 0 0;
-	margin-right: 10px;
+	padding: 2px 0px 0px 0px;
 	background: none;
 	text-align: center;
-	color: #ffffff;
+	color: #FFFFFF;
 }
 
 /* Sidebar */
 
 #sidebar {
 	float: right;
-	width: 30%;
-	margin: 0;
-	padding: 0;
-	color: #555555;
+	width: 280px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: #666666;
 }
 
 #sidebar ul {
@@ -283,7 +293,7 @@ a:hover {
 }
 
 #sidebar li ul {
-	margin: 0;
+	margin: 0px 0px;
 	padding-bottom: 30px;
 }
 
@@ -291,7 +301,7 @@ a:hover {
 	line-height: 35px;
 	border-bottom: 1px solid #eeeeee;
 	background: none;
-	margin: 0 0 0 20px;
+	margin: 0px 30px;
 	border-left: none;
 }
 
@@ -304,20 +314,20 @@ a:hover {
 }
 
 #sidebar li li a {
-	padding: 0 0 0 15px;
+	padding: 0px 0px 0px 15px;
 }
 
 #sidebar h2 {
-	height: auto;
-	padding-left: 0;
+	height: 38px;
+	padding-left: 30px;
 	letter-spacing: 0;
-	font-size: 1.5em;
-	color: #444444;
+	font-size: 1.6em;
+	color: #555555;
 }
 
 #sidebar p {
-	margin: 0;
-	padding: 0 0 20px 0;
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
 	text-align: left;
 }
 
@@ -333,13 +343,15 @@ a:hover {
 	max-width: 100%;
 	height: auto;
 	border-radius: 4px;
-	display: block;
 }
 
 /* Calendar */
 
+#calendar {
+}
+
 #calendar_wrap {
-	padding: 20px 0;
+	padding: 20px;
 }
 
 #calendar table {
@@ -358,27 +370,27 @@ a:hover {
 
 #footer-content {
 	background: none;
-	color: #777777;
+	color: #BFBFBF;
 }
 
 #footer-bg {
 	overflow: hidden;
-	width: auto;
-	padding: 30px 0 40px 0;
+	width: 890px;
+	padding: 30px 55px 50px 55px;
 	background: none;
 }
 
 #footer-content h2 {
-	margin: 0;
-	padding: 0 0 20px 0;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
 	letter-spacing: 0;
 	font-size: 26px;
 	color: #333333;
 }
 
 #footer-content ul {
-	margin: 0;
-	padding: 0 0 0 20px;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
 }
 
 #footer-content a {
@@ -387,26 +399,26 @@ a:hover {
 
 #column1 {
 	float: left;
-	width: 31%;
-	margin-right: 3%;
+	width: 290px;
+	margin-right: 30px;
 }
 
 #column2 {
 	float: left;
-	width: 31%;
+	width: 280px;
 }
 
 #column3 {
 	float: right;
-	width: 31%;
+	width: 260px;
 }
 
 /* Footer */
 
 #footer {
-	height: auto;
+	height: 50px;
 	margin: 0 auto;
-	padding: 20px 0 30px 0;
+	padding: 0px 0 15px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -414,7 +426,7 @@ a:hover {
 	margin: 0;
 	padding-top: 10px;
 	line-height: normal;
-	font-size: 11px;
+	font-size: 10px;
 	text-transform: none;
 	text-align: center;
 	color: #666666;
@@ -424,23 +436,21 @@ a:hover {
 	color: #666666;
 }
 
-/* Marketing */
-
 #marketing {
 	overflow: hidden;
 	margin-bottom: 30px;
-	padding: 20px 0 10px 0;
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #eeeeee;
+	padding: 20px 0px 10px 0px;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;
 }
 
 #marketing .text1 {
 	float: left;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	letter-spacing: 0;
 	font-size: 34px;
-	color: #345e9b;
+	color: #345E9B;
 }
 
 #marketing .text2 {
@@ -451,97 +461,10 @@ a:hover {
 	display: block;
 	width: 252px;
 	height: 38px;
-	padding: 15px 0 0 0;
+	padding: 15px 0px 0px 0px;
 	background: none;
 	letter-spacing: 0;
 	text-align: center;
 	font-size: 30px;
 	color: #333333;
-}
-
-/* Generic horizontal rules */
-
-hr {
-	border: none;
-	border-top: 1px solid #eeeeee;
-	margin: 30px 0;
-}
-
-/* Responsive layout */
-
-@media (max-width: 900px) {
-	#logo,
-	#menu,
-	#content,
-	#sidebar,
-	#column1,
-	#column2,
-	#column3 {
-		float: none;
-		width: 100%;
-	}
-
-	#header {
-		padding: 20px 0 10px 0;
-	}
-
-	#logo h1 {
-		padding-top: 0;
-	}
-
-	#menu ul {
-		float: none;
-		padding: 20px 0 0 0;
-		text-align: left;
-	}
-
-	#menu li {
-		float: none;
-		display: inline-block;
-		margin-right: 10px;
-	}
-
-	#menu a {
-		padding: 8px 10px;
-	}
-
-	#content {
-		margin-bottom: 30px;
-	}
-
-	#sidebar {
-		margin-top: 10px;
-	}
-}
-
-@media (max-width: 600px) {
-	body {
-		font-size: 15px;
-	}
-
-	h1 {
-		font-size: 2em;
-	}
-
-	h2 {
-		font-size: 1.8em;
-	}
-
-	h3 {
-		font-size: 1.2em;
-	}
-
-	.container {
-		padding: 0 15px;
-	}
-
-	#menu li {
-		display: block;
-		margin-right: 0;
-		margin-bottom: 4px;
-	}
-
-	#menu a {
-		padding: 8px 0;
-	}
 }
