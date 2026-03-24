@@ -56,24 +56,25 @@ a:hover {
 
 #logo {
 	float: left;
-	width: 320px;
+	width: 360px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
 }
 
 #logo h1 {
-	padding: 20px 0px 0px 0px;
+	padding: 10px 0 0 0;
 	letter-spacing: -1px;
 	font-size: 2.8em;
 }
 
 #logo p {
 	margin: 0;
-	padding: 4px 0 0 0px;
+	padding: 6px 0 0 0;
 	font: normal 18px Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 	color: #666666;
+	line-height: 1.3;
 }
 
 #logo p a {
@@ -93,29 +94,30 @@ a:hover {
 	float: right;
 	width: 500px;
 	margin: 0;
-	padding: 0;
+	padding: 42px 0 0 0;
 }
 
 #menu ul {
 	float: right;
 	margin: 0;
-	padding: 60px 0 0 0;
+	padding: 0;
 	list-style: none;
 }
 
 #menu li {
 	float: left;
+	margin-left: 18px;
 }
 
 #menu a {
 	display: block;
-	padding: 8px 15px;
+	padding: 0;
 	text-decoration: none;
 	text-align: center;
 	font-size: 13px;
 	font-weight: bold;
 	color: #666666;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 #menu a:hover,
@@ -129,6 +131,7 @@ a:hover {
 	width: 890px;
 	margin: 0 auto;
 	padding: 30px 55px;
+	overflow: hidden;
 }
 
 /* Content */
@@ -145,11 +148,11 @@ a:hover {
 }
 
 .post .title {
-	padding: 7px 0px 0px 0px;
+	padding: 7px 0 0 0;
 }
 
 .post .entry {
-	padding: 0px 0px 20px 0px;
+	padding: 0 0 20px 0;
 	text-align: left;
 }
 
