@@ -23,6 +23,16 @@ h1 { font-size: 2.5em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.25em; }
 
+.entry h4 {
+    margin-top: 1.4em;
+    margin-bottom: 0.2em;
+}
+
+.entry ul {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
 p, ul, ol {
 	margin-top: 0;
 	line-height: 1.7;
