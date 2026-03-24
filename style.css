@@ -66,6 +66,11 @@ a:hover {
 	counter-reset: pub;
 }
 
+.publications ol {
+	list-style: none;
+	padding-left: 1.3em;
+}
+
 .publications li {
 	counter-increment: pub;
 }
@@ -73,7 +78,6 @@ a:hover {
 .publications li::marker {
 	content: counter(pub) ". ";
 }
-
 
 /* Header */
 
